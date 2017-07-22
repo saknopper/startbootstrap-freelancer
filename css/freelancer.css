@@ -235,6 +235,27 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
+#portfolio #instafeed {
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+#portfolio #instafeed a {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 150px;
+  margin: .5vw;
+}
+#portfolio #instafeed a img {
+  width: 150px;
+  height: auto;
+}
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
