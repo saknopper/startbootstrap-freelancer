@@ -61,6 +61,9 @@ gulp.task('copy', function() {
     gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
         .pipe(gulp.dest('vendor/jquery'))
 
+    gulp.src(['node_modules/instafeed.js/*.js'])
+	    .pipe(gulp.dest('vendor/instafeed'))
+
     gulp.src([
             'node_modules/font-awesome/**',
             '!node_modules/font-awesome/**/*.map',
