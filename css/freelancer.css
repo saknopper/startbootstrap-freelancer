@@ -535,3 +535,7 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+div#maincontent img#pictureOfMe {
+  width: 256px;
+  border-radius: 128px;
+}
