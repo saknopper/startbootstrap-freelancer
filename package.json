@@ -20,7 +20,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.4",
     "jquery": "^1.11.3",
-    "instafeed.js": "^1.4.1"
+    "nanogallery2": "^1.4.0"
   },
   "repository": {
     "type": "git",

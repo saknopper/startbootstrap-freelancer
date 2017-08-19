@@ -64,6 +64,12 @@ gulp.task('copy', function() {
     gulp.src(['node_modules/instafeed.js/*.js'])
 	    .pipe(gulp.dest('vendor/instafeed'))
 
+	gulp.src(['node_modules/nanogallery2/dist/*.js'])
+		.pipe(gulp.dest('vendor/nanogallery2/js'))
+
+	gulp.src(['node_modules/nanogallery2/dist/css/**/*'])
+		.pipe(gulp.dest('vendor/nanogallery2/css'))
+
     gulp.src([
             'node_modules/font-awesome/**',
             '!node_modules/font-awesome/**/*.map',
